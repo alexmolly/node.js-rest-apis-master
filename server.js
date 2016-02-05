@@ -52,6 +52,6 @@ app.put('/api/cities/:name', function(request, response){
 	response.status(404).send({error: 'City not found'});
 });
 
-app.listen(8080, function(){
-	console.log("Listening on port 8080...");
+app.listen(8000, function(){
+	console.log("Listening on port 8000...");
 });
