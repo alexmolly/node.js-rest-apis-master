@@ -1,11 +1,10 @@
 {
-  "name": "NodeRESTAPIs",
+  "name": "ExpressApp1",
   "version": "0.0.1",
   "description": "Sample Node REST app",
-  "main": "server.js",
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "keywords": [
     "Node.js",
